@@ -1,4 +1,5 @@
 范例工程文件组织如下：
+```
 ExampleProject
 ├configs        #存放配置文件
 │└test.yaml     #具体的配置文件
@@ -14,8 +15,10 @@ ExampleProject
 ├results        #实验结果归档
 │└...
 └runner.py      #批量实验运行入口
+```
 
 其中结果记录文件夹组织如下：
+```
 results
 └exp_record
  ├data
@@ -29,7 +32,7 @@ results
  ├config_old.yaml
  ├config.yaml
  └some_code.yaml
-
+```
 utils/argpaser.py的主要功能包括：
 -读取原配置文件并归档
 -解析命令行参数，覆盖配置文件并归档
